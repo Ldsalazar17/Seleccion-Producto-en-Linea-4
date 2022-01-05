@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Poder administrar la cuenta de usuario","el usuario cambiara su contrasena","SUCCESS","2022-01-03T03:05:08.68-05:00[America/Bogota]","0.0","0.03"
+"Poder administrar la cuenta de usuario","el usuario debera ver el detalle del envio","SUCCESS","2022-01-03T03:05:08.714-05:00[America/Bogota]","0.0","0.03"
+"Poder administrar la cuenta de usuario","El usuario debera ver el mensaje de confirmacion al hacer cambios","SUCCESS","2022-01-03T03:05:08.749-05:00[America/Bogota]","0.0","0.01"

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Poder administrar la cuenta de usuario","el usuario deberia ver la informacion de la cuenta","PENDING","2022-01-03T02:59:50.135-05:00[America/Bogota]","0.0","0.14"
+"Poder administrar la cuenta de usuario","el usuario cambiara su contrasena","PENDING","2022-01-03T02:59:50.352-05:00[America/Bogota]","0.0","0.02"
+"Poder administrar la cuenta de usuario","el usuario debera ver el detalle del envio","PENDING","2022-01-03T02:59:50.378-05:00[America/Bogota]","0.0","0.02"
+"Poder administrar la cuenta de usuario","El usuario debera ver el mensaje de confirmacion al hacer cambios","PENDING","2022-01-03T02:59:50.408-05:00[America/Bogota]","0.0","0.02"
