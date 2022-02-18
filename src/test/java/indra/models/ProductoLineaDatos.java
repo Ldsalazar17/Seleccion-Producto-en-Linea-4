@@ -1,6 +1,6 @@
 package indra.models;
 
-public class Hu6Datos {
+public class ProductoLineaDatos {
 
     private String usuario;
     private String contrasena;

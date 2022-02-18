@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+"administrar la cuenta de usuario","el usuario deberia ver la informacion de la cuenta","PENDING","2022-02-18T17:04:19.014-05:00[America/Bogota]","0.0","0.36"
 "Poder administrar la cuenta de usuario","el usuario cambiara su contraseña","PENDING","2021-12-31T02:11:54.373-05:00[America/Bogota]","0.0","0.02"

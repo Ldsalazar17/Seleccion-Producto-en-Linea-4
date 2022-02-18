@@ -35,13 +35,13 @@
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">23.685s</div>
+<div class="counter">0.112s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">-</div>
 <p>successful</p>
 </div>
 </td>
@@ -66,9 +66,6 @@
 <li>
 <a href="#tab1">Standard output</a>
 </li>
-<li>
-<a href="#tab2">Standard error</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -81,51 +78,26 @@
 </tr>
 </thead>
 <tr>
-<td class="success">el usuario deberia poder editar y hacer cambios como su contraseña</td>
-<td class="success">23.685s</td>
-<td class="success">passed</td>
+<td class="skipped">el usuario deberia ver la informacion de la cuenta</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
 </tr>
 </table>
 </div>
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:57:40.435 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:57:40.435 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:57:56.714 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
-16:57:56.717 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
-16:57:58.104 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\SoporteTI\Documents\JAVA\Repositorio\ESCENARIOS OUTLINE\HU4\target\site\serenity\6764e7643529f7df813fb38f07e38ad7c8fb79f9f83557efadea67e302c9b52d.png
-16:58:00.608 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\SoporteTI\Documents\JAVA\Repositorio\ESCENARIOS OUTLINE\HU4\target\site\serenity\615ab8294bbe4fbec4df483ef8dde586a974b4fd663d1138fc1aad7488a7da4f.png
-16:58:00.611 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3958606522744946321
-16:58:00.611 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\SoporteTI\Documents\JAVA\Repositorio\ESCENARIOS OUTLINE\HU4\target\site\serenity\615ab8294bbe4fbec4df483ef8dde586a974b4fd663d1138fc1aad7488a7da4f.png
-16:58:01.000 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\SoporteTI\Documents\JAVA\Repositorio\ESCENARIOS OUTLINE\HU4\target\site\serenity\5fb4f76c9065c3295cba0b78531fd3b838d5e8fea55369de3a6437998fdcf6e7.png
-16:58:01.003 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1969648470583994978
-16:58:01.003 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\SoporteTI\Documents\JAVA\Repositorio\ESCENARIOS OUTLINE\HU4\target\site\serenity\5fb4f76c9065c3295cba0b78531fd3b838d5e8fea55369de3a6437998fdcf6e7.png
-16:58:01.298 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\SoporteTI\Documents\JAVA\Repositorio\ESCENARIOS OUTLINE\HU4\target\site\serenity\5fb4f76c9065c3295cba0b78531fd3b838d5e8fea55369de3a6437998fdcf6e7.png
-16:58:02.892 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
+<pre>17:04:19.322 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+17:04:19.372 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
 
-TEST PASSED: el usuario deberia poder editar y hacer cambios como su contraseña
-----------------------------------------------------------------------------?[0m
-</pre>
-</span>
-</div>
-<div id="tab2" class="tab">
-<h2>Standard error</h2>
-<span class="code">
-<pre>ene 04, 2022 4:57:39 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27001
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-ene 04, 2022 4:57:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMACIÓN: Detected dialect: W3C
+TEST PENDING: el usuario deberia ver la informacion de la cuenta
+---------------------------------------------------------------------------------?[0m
 </pre>
 </span>
 </div>
@@ -137,7 +109,7 @@ INFORMACIÓN: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.1</a> at 4/01/2022 04:58:04 PM</p>
+<a href="http://www.gradle.org">Gradle 7.1</a> at 18/02/2022 05:04:21 PM</p>
 </div>
 </div>
 </body>

@@ -8,14 +8,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features.hu6/hu6.feature"
+        features = "src/test/resources/features.Advantage/Advantage.feature"
 
 
         ,glue = "indra.steps_definitions"
         ,snippets = SnippetType.CAMELCASE
-        ,tags = "@seccion3"
+      //  ,tags = ""
 )
 
 
-public class Hu6Runners {
+public class ProductoLineaRunners {
 }
